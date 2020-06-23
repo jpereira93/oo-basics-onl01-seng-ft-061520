@@ -1,40 +1,47 @@
 # Make your shoe class here!
-class Book
-  def initialize(title)
-@title = title
+class Shoe
+  attr_accessor :color :size :material :condition
+  def initialize(brand) 
+    @brand = brand
+
   end
-
-def title
-  @title
+  def cobble 
+    repaired=
+    new=
+  end
 end
 
-def author=(author)
-  @author = author
-end
+# def title
+#   @title
+# end
+# 
+# def author=(author)
+  # at author = author
+# end
+# 
+# def author
+#   at author
+# end
+# 
+# def page_count=(name)
+#   @page_count = name
+# end
+# 
+# def page_count
+#   @page_count
+# end
+# 
+# def genre=(genre)
+#   @genre = genre
+# end
+# 
+# def genre
+#   @genre
+# end
+# 
+# def turn_page
+#   puts "Flipping the page...wow, you read fast!"
+# end
 
-def author
-  @author
-end
-
-def page_count=(name)
-  @page_count = name
-end
-
-def page_count
-  @page_count
-end
-
-def genre=(genre)
-  @genre = genre
-end
-
-def genre
-  @genre
-end
-
-def turn_page
-  puts "Flipping the page...wow, you read fast!"
-end
 
 
-end
