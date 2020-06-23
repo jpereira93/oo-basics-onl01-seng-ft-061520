@@ -5,7 +5,11 @@ class Shoe
     @brand = brand
 
   end
-  # def cobble
+  def cobble
+    # puts = 
+    # condition = new
+
+  end
   #   repaired=
   #   new=
   # end
