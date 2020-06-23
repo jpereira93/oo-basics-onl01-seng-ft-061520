@@ -6,9 +6,11 @@ class Book
 def title
   @title
 end
-def author("Agatha Christie")
+
+def author=(author)
   @author = author
 end
+
 end
 
 
