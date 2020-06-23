@@ -5,10 +5,10 @@ class Shoe
     @brand = brand
 
   end
-  def cobble
-    repaired=
-    new=
-  end
+  # def cobble
+  #   repaired=
+  #   new=
+  # end
 end
 
 # def title
